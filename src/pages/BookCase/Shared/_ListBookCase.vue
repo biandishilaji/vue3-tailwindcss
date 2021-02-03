@@ -126,7 +126,7 @@
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                         <div class="ml-2 flex-shrink-0 flex">
-                          <a href="#" @click.prevent="handleRemoveBook(item.id)"
+                          <a href="#"
                              class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full text-gray-400">
                             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                  class="transform transition-transform duration-500 ease-in-out">

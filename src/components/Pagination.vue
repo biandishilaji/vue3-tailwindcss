@@ -43,10 +43,7 @@
               <span v-if="page_checked == item"><b class="text-indigo-400">{{ item }}</b></span>
               <span v-else>{{ item }}</span>
             </a>
-            <span
-                class="text-indigo-400 relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
-              <b>...</b>
-            </span>
+
             <a
                 class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               <span class="sr-only">Next</span>

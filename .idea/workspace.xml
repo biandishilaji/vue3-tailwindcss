@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292a4b64-9971-4cf1-83d7-6967df48dd76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/BookCase/Shared/_ListBookCase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookCase/Shared/_ListBookCase.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="292a4b64-9971-4cf1-83d7-6967df48dd76" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +52,7 @@
       <workItem from="1612275701912" duration="304000" />
       <workItem from="1612285727583" duration="775000" />
       <workItem from="1612294773155" duration="13187000" />
-      <workItem from="1612315228230" duration="5529000" />
+      <workItem from="1612315228230" duration="5925000" />
     </task>
     <servers />
   </component>

@@ -126,15 +126,15 @@
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                         <div class="ml-2 flex-shrink-0 flex">
-                          <a href="#"
-                             class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full text-gray-400">
+                          <span
+                             class="opacity-25 px-2 inline-flex text-xs leading-5 font-semibold rounded-full text-gray-400">
                             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                  class="transform transition-transform duration-500 ease-in-out">
                               <path
                                   stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                   d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
                             </svg>
-                          </a>
+                          </span>
                           <a href="#" @click.prevent="handleRemoveBook(item.id)"
                              class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full text-red-500">
                             <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"

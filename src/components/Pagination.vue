@@ -15,9 +15,9 @@
         <div>
 <!--          <p class="text-sm text-gray-700">-->
 <!--            Exibindo-->
-<!--            <span class="font-medium">2</span>-->
+<!--            <span class="font-medium">{{ source.from }}</span>-->
 <!--            de-->
-<!--            <span class="font-medium">100</span>-->
+<!--            <span class="font-medium">{{ source.to }}</span>-->
 <!--            livros encontrados.-->
 <!--          </p>-->
           <skeleton style="width: 250px"/>
@@ -35,10 +35,17 @@
                       clip-rule="evenodd"/>
               </svg>
             </a>
-<!--            <a-->
-<!--                class="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">-->
-<!--              1-->
-<!--            </a>-->
+            <a v-for="item in source.last_page"
+               @click.prevent="page_checked = item"
+               href="#"
+                class="relative inline-flex items-center px-4 py-2 border bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+              <span  v-if="page_checked == item"><b class="text-indigo-400">{{ item }}</b></span>
+              <span v-else>{{ item }}</span>
+            </a>
+            <span
+               class="text-indigo-400 relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+              <b>...</b>
+            </span>
             <a
                 class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               <span class="sr-only">Next</span>
@@ -62,8 +69,14 @@ import Skeleton from "@/components/Skeleton.vue";
 
 export default {
   name: "Pagination",
+  props: ['source'],
   components: {
     Skeleton
+  },
+  data (){
+    return{
+      page_checked : 1
+    }
   }
 }
 </script>

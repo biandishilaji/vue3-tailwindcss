@@ -150,23 +150,22 @@
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span class="block">Primeira vez aqui?</span>
-<!--            <span class="block">Deseja organizar seu livros em só um lugar?</span>-->
+            <!--            <span class="block">Deseja organizar seu livros em só um lugar?</span>-->
             <span class="block text-indigo-500 lg:items-right"><small>Começe agora mesmo a organizar sua estante virtual.</small></span>
           </h2>
           <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div class="inline-flex rounded-md shadow">
               <a href="#" @click.prevent="handleShowModalClick"
                  class="opacity-80 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-600">
-               Adicione um novo livro
+                Adicione um novo livro
               </a>
             </div>
           </div>
         </div>
       </div>
-
     </div>
     <!--    #COMPONENTE LISTA-->
-    <list-book-case :items="books"></list-book-case>
+    <list-book-case :source="books && books.data ? books.data : []"></list-book-case>
   </div>
 </template>
 
@@ -218,10 +217,15 @@ export default defineComponent({
       bookCase,
       store,
       books: computed(() => store.state.books),
+      nameCategory1: computed(() => bookCase.name + bookCase.category)
     }
+  },
+  updated(){
+    console.log(this.$loading)
   },
   mounted() {
     this.ebook = null // verificar necessidade
+    this.init()
   },
   directives: {
     indeterminate: function (el, binding) {
@@ -247,6 +251,23 @@ export default defineComponent({
     }
   },
   methods: {
+    init() {
+
+      this.$loading = true
+
+      let params = {
+        page: 1,
+        per_page : 50
+      }
+
+      this.$store.dispatch('fetchBooks', params).then(response =>{
+        this.$loading = false
+
+      }).catch(error =>{
+        this.$loading = false
+      })
+
+    },
     checkOutIndeterminate() {
 
       // afeter DOM update

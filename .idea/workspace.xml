@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="292a4b64-9971-4cf1-83d7-6967df48dd76" name="Default Changelist" comment="" />
+    <list default="true" id="292a4b64-9971-4cf1-83d7-6967df48dd76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BookCase/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookCase/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BookCase/Shared/_ListBookCase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookCase/Shared/_ListBookCase.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nuQY4dZC9yKoyQPJ5IVvzW3Xqa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teste-juke-box" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -47,7 +59,8 @@
       <workItem from="1612269963628" duration="2762000" />
       <workItem from="1612275701912" duration="304000" />
       <workItem from="1612285727583" duration="775000" />
-      <workItem from="1612294773155" duration="7192000" />
+      <workItem from="1612294773155" duration="13187000" />
+      <workItem from="1612315228230" duration="2277000" />
     </task>
     <servers />
   </component>
@@ -55,29 +68,28 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="467" y="161" width="432" height="488" key="FileChooserDialogImpl" timestamp="1612286513833">
+    <state x="467" y="161" width="432" height="488" key="FileChooserDialogImpl" timestamp="1612310250245">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="467" y="161" width="432" height="488" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1612286513833" />
-    <state x="96" y="136" width="1174" height="538" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612272078422">
+    <state x="467" y="161" width="432" height="488" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1612310250245" />
+    <state x="96" y="136" width="1174" height="538" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612311875803">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="96" y="136" width="1174" height="538" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.36.1366.732@0.36.1366.732" timestamp="1612272078422" />
+    <state x="96" y="136" width="1174" height="538" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.36.1366.732@0.36.1366.732" timestamp="1612311875803" />
     <state x="387" y="144" width="592" height="522" key="find.popup" timestamp="1612272551642">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="387" y="144" width="592" height="522" key="find.popup/0.36.1366.732@0.36.1366.732" timestamp="1612272551642" />
-    <state x="343" y="178" key="run.anything.popup" timestamp="1612298614634">
+    <state x="343" y="178" key="run.anything.popup" timestamp="1612310776073">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="343" y="178" key="run.anything.popup/0.36.1366.732@0.36.1366.732" timestamp="1612298614634" />
+    <state x="343" y="178" key="run.anything.popup/0.36.1366.732@0.36.1366.732" timestamp="1612310776073" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/services/api.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

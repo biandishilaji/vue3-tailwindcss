@@ -38,7 +38,6 @@ export default createStore({
             })
         },
         fetchBooks({commit}, params) {
-
             return req.get('/books', {params: params}).then((response) => {
                 commit('add_products', response)
                 return Promise.resolve(response)

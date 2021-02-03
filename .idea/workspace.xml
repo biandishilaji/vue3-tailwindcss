@@ -4,10 +4,7 @@
     <list default="true" id="292a4b64-9971-4cf1-83d7-6967df48dd76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/BookCase/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookCase/Index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/BookCase/Shared/_ListBookCase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BookCase/Shared/_ListBookCase.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       <workItem from="1612275701912" duration="304000" />
       <workItem from="1612285727583" duration="775000" />
       <workItem from="1612294773155" duration="13187000" />
-      <workItem from="1612315228230" duration="2277000" />
+      <workItem from="1612315228230" duration="5529000" />
     </task>
     <servers />
   </component>
@@ -80,10 +77,10 @@
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="387" y="144" width="592" height="522" key="find.popup/0.36.1366.732@0.36.1366.732" timestamp="1612272551642" />
-    <state x="343" y="178" key="run.anything.popup" timestamp="1612310776073">
+    <state x="343" y="178" key="run.anything.popup" timestamp="1612318006001">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
-    <state x="343" y="178" key="run.anything.popup/0.36.1366.732@0.36.1366.732" timestamp="1612310776073" />
+    <state x="343" y="178" key="run.anything.popup/0.36.1366.732@0.36.1366.732" timestamp="1612318006001" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
